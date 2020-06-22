@@ -1,0 +1,38 @@
+- title: Pages
+  links:
+    - name: Home
+      link: /
+    - name: Digital Workspace
+      link: 'https://ent.supeducation.org/course/view.php?id=2/'
+    - name: Join our community
+      link: 'https://facebook.com/groups/learnfrench.supeducation.org/'
+    - name: Become a volunteer
+      link: /contact/
+- title: Social (Learn French)
+  links:
+    - name: Facebook Page
+      link: 'https://facebook.com/learnfrench.SupEducation.org/'
+      social_icon: Facebook
+      new_window: true
+    - name: Facebook Group
+      link: 'https://facebook.com/groups/learnfrench.supeducation.org/'
+      social_icon: Facebook
+      new_window: true
+    - name: Instagram
+      link: 'https://www.instagram.com/supeducation_learn_french/'
+      social_icon: Instagram
+      new_window: true
+- title: Social (SupEducation)
+  links:
+    - name: Instagram
+      link: 'https://instagram.com/supeducationfrance/'
+      social_icon: Instagram
+      new_window: true
+    - name: Facebook Page
+      link: 'https://facebook.com/supeducation.org/'
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: 'https://twitter.com/supeducationfr'
+      social_icon: Twitter
+      new_window: true 

@@ -1,0 +1,53 @@
+---
+title: Learn French with SupEducation
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">
+			Learn French with SupEducation
+		</h2>
+		<p class="subtext editable">
+			Education should be <strong>FREE</strong>. This is why we started SupEducation. You can learn French for free on our Digital Workspace : ENT.
+		</p>
+		<p><a class="button alt" href="https://ent.supeducation.org/course/view.php?id=2">See our Digital Workspace</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">
+				You want to become a volunteer ?
+			</h3>
+			<p class="editable">
+				You want to teach ? Interact with our community ? Just contact us and you can join our team !
+			</p>
+				<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for client in site.clients limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}" /></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			
+		</div>
+		<div>
+			<h3 class="editable">
+				Join our active community
+			</h3>
+			<p class="editable">
+				Ask any question. In French or in English, we will answer you. Find other student to learn with. Stay in touch to get the latest news.
+			</p>
+			<p><a class="button alt" href="https://ent.supeducation.org/course/view.php?id=2">Join our community</a></p>
+		</div>
+	</div>
+</section>
